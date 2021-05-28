@@ -20,16 +20,20 @@ nav {
   justify-content: flex-end;
   align-items: flex-end;
   border-bottom: 1px solid #ddd;
+
+  .logo {
+    margin-right: auto;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  a {
+    margin-left: 12px;
+  }
 }
-nav a {
-  margin-left: 12px;
-}
-nav .logo {
-  margin-right: auto;
-}
-nav .logo:hover {
-  cursor: pointer;
-}
+
 footer {
   display: block;
   text-align: center;
@@ -41,10 +45,8 @@ footer {
 
 .not-found{
   text-align: center;
-
-}
-.not-found a{
-  color: #4979ff;
-  text-decoration: underline;
-  
+  a{
+    color: #4979ff;
+    text-decoration: underline;
+  }
 }
